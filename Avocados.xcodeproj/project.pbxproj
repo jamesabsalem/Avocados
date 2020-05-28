@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30690D10248011E00064F58D /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30690D0F248011E00064F58D /* AvocadosView.swift */; };
+		30690D12248012060064F58D /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30690D11248012060064F58D /* RipeningStagesView.swift */; };
+		30690D142480122B0064F58D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30690D132480122B0064F58D /* SettingsView.swift */; };
+		30690D16248012500064F58D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30690D15248012500064F58D /* AppView.swift */; };
 		309AF264247E951E00BD5A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309AF263247E951E00BD5A5D /* AppDelegate.swift */; };
 		309AF266247E951E00BD5A5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309AF265247E951E00BD5A5D /* SceneDelegate.swift */; };
 		309AF268247E951E00BD5A5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309AF267247E951E00BD5A5D /* ContentView.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30690D0F248011E00064F58D /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		30690D11248012060064F58D /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		30690D132480122B0064F58D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30690D15248012500064F58D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		309AF260247E951E00BD5A5D /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309AF263247E951E00BD5A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		309AF265247E951E00BD5A5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30690D0C248011470064F58D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			path = "New Group/Data";
+			sourceTree = "<group>";
+		};
+		30690D0D248011620064F58D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30690D0E248011730064F58D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				309AF267247E951E00BD5A5D /* ContentView.swift */,
+				30690D0F248011E00064F58D /* AvocadosView.swift */,
+				30690D11248012060064F58D /* RipeningStagesView.swift */,
+				30690D132480122B0064F58D /* SettingsView.swift */,
+				30690D15248012500064F58D /* AppView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		309AF257247E951E00BD5A5D = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +91,11 @@
 		309AF262247E951E00BD5A5D /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				30690D0E248011730064F58D /* View */,
+				30690D0D248011620064F58D /* Model */,
+				30690D0C248011470064F58D /* Data */,
 				309AF263247E951E00BD5A5D /* AppDelegate.swift */,
 				309AF265247E951E00BD5A5D /* SceneDelegate.swift */,
-				309AF267247E951E00BD5A5D /* ContentView.swift */,
 				309AF269247E952000BD5A5D /* Assets.xcassets */,
 				309AF26E247E952000BD5A5D /* LaunchScreen.storyboard */,
 				309AF271247E952000BD5A5D /* Info.plist */,
@@ -146,7 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30690D10248011E00064F58D /* AvocadosView.swift in Sources */,
+				30690D12248012060064F58D /* RipeningStagesView.swift in Sources */,
 				309AF264247E951E00BD5A5D /* AppDelegate.swift in Sources */,
+				30690D16248012500064F58D /* AppView.swift in Sources */,
+				30690D142480122B0064F58D /* SettingsView.swift in Sources */,
 				309AF266247E951E00BD5A5D /* SceneDelegate.swift in Sources */,
 				309AF268247E951E00BD5A5D /* ContentView.swift in Sources */,
 			);
