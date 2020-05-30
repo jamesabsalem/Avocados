@@ -11,31 +11,31 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView {
+            // avocados view
             AvocadosView()
                 .tabItem({
                     Image("tabicon-branch")
                     Text("Avocados")
                 })
-            
+            // content view
             ContentView()
                 .tabItem({
                     Image("tabicon-book")
                     Text("Recipes")
                 })
-            
+            // ripening states view
             RipeningStagesView()
                 .tabItem({
                     Image("tabicon-avocado")
                     Text("Ripening")
                 })
-            
+            // setting view
             SettingsView()
                 .tabItem({
                     Image("tabicon-settings")
                     Text("Settings")
                 })
         }
-            
         .edgesIgnoringSafeArea(.top)
         .accentColor(Color.primary)
     }
