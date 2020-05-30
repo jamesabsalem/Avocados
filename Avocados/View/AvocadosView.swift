@@ -60,6 +60,6 @@ struct AvocadosView: View {
 struct AvocadosView_Previews: PreviewProvider {
     static var previews: some View {
         AvocadosView()
-            //.environment(\.colorScheme, .dark)
+            .environment(\.colorScheme, .dark)
     }
 }
