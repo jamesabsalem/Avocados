@@ -64,7 +64,7 @@ struct RecipeCardView: View {
             self.showModal = true
         }
         .sheet(isPresented: self.$showModal) {
-            RecipeCardView(recipe: self.recipe)
+            RecipeDetailView(recipe: self.recipe)
         }
     }
 }

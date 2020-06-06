@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AF8580C248A9B780074B5F6 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF8580B248A9B780074B5F6 /* RipeningView.swift */; };
 		303E744024815D4000F1E449 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E743F24815D4000F1E449 /* HeaderView.swift */; };
 		30690D10248011E00064F58D /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30690D0F248011E00064F58D /* AvocadosView.swift */; };
 		30690D12248012060064F58D /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30690D11248012060064F58D /* RipeningStagesView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AF8580B248A9B780074B5F6 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 		303E743F24815D4000F1E449 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		30690D0F248011E00064F58D /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
 		30690D11248012060064F58D /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				30D5D7272487DB7500CB67CE /* RecipeRatingView.swift */,
 				30D5D7292487DC1F00CB67CE /* RecipeCookingView.swift */,
 				30D5D72B2487DD9600CB67CE /* RecipeDetailView.swift */,
+				1AF8580B248A9B780074B5F6 /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				309AF266247E951E00BD5A5D /* SceneDelegate.swift in Sources */,
 				309AF268247E951E00BD5A5D /* ContentView.swift in Sources */,
 				30F666042483E668009B4DBF /* FactData.swift in Sources */,
+				1AF8580C248A9B780074B5F6 /* RipeningView.swift in Sources */,
 				30CA10DA24828CAD00DA2DC4 /* DishesView.swift in Sources */,
 				30F6660A248420A3009B4DBF /* RecipeData.swift in Sources */,
 				30CA10D82482888600DA2DC4 /* HeaderData.swift in Sources */,
